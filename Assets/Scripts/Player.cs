@@ -1,3 +1,5 @@
+// Mo Spiegel
+
 using UnityEngine;
 
 public class Player : MonoBehaviour
