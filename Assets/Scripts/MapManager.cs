@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class MapManager : MonoBehaviour
 {
-    private SpriteRender sprite;
-    private Vector2D[] hitboxPositions;
+    private SpriteRenderer sprite;
+    private Vector2[] hitboxPositions;
 
-    [SerailizeField] Sprite image;
+    [SerializeField] Sprite image;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
